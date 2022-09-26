@@ -27,7 +27,8 @@ class efficientNetB3:
 
 
     def predict(self, image: np.ndarray):
-        image = resize(image, (70, 70),
+        ### resize all images to the size expected by the network
+        image = resize(image, (200, 244),
                    preserve_range=True,
                    anti_aliasing=True)
         image = np.expand_dims(image, 0)
