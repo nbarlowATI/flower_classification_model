@@ -12,7 +12,8 @@ setup(
     name="flower_classification_model",
     version="0.0.1",
     description="scivision plugin, using EfficientNetB3 model",
-    url="https://github.com/nbarlowATI/flower_classification_model",
+    ### TODO ###
+    url="INSERT URL OF THIS GITHUB REPO HERE",
     packages=find_packages(),
     install_requires=requirements,
     python_requires=">=3.7",
